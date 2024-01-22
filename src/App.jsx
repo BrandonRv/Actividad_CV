@@ -8,7 +8,7 @@ import ExperienciaLaboral from './componentes/ExperienciaLaboral';
 import Educacion from './componentes/Educacion';
 import Idiomas from './componentes/Idiomas';
 import Referencias from './componentes/Referencias';
-import foto from '../hofavida.png'
+import foto from './assets/hofavida.png'
 
 function App() {
 
