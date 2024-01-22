@@ -1,0 +1,265 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  text-align: left;
+  box-shadow:  -6px -2px 90px 60px rgba(0, 0, 0, 0.4);
+  border-radius: 20px
+}
+
+.cv-photo {
+  width: 300px;
+  height: auto;
+  padding: 7px;
+  display: block;
+  margin: 0 auto;; /* Centra horizontalmente */
+  border: none;
+  /* background-color: rgb(202, 202, 200); Agrega un borde de 2 píxeles */
+  box-shadow:  0px 0px 40px 20px rgba(179, 178, 178, 1);
+  border-radius: 100px
+}
+.cv-container {
+  padding: 1rem;
+  flex: 1;
+  flex-direction: column; 
+  background-color: rgb(216, 216, 216);
+  align-items: flex; 
+  margin: left; 
+  max-width: 300px; 
+  border-radius: 20px;
+}
+
+.cv-contact, .cv-resumen, .cv-inter {
+  margin-bottom: 2rem; /* Espacio entre secciones */
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.sum, .int {
+  font-size: 15spx;
+}
+
+.info{
+  font-size: 15spx;
+}
+ 
+.elementosCV {
+  padding: 2rem;
+  flex: 1;
+  flex-direction: column; 
+}
+
+.cv-perfil-profesional, .cv-experiencia-laboral, .cv-educacion, .cv-referencias{
+align-items: center;
+text-align: left;
+/* margin-top: -80%; */
+}
+
+.cv-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.negritass {
+  font-weight: bold;
+}
+.exp, .edu {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.fechasexp, .fechasexp1 {
+  margin-left: 80px;
+}
+
+
+.altobajo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+}
+
+.cajasss {
+  display: flex;
+  justify-content: space-between; /* Espaciamiento entre los elementos dentro de cajasss */
+  align-items: flex-start; /* Alinear los elementos en la parte superior */
+}
+
+.baseee {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.cursivane {
+  font-style: italic;
+}
+
+.h1magen {
+  margin-top: 0px;
+}
+
+.negritasskk {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.referrr {
+  
+margin-bottom: 20px;
+
+}
+
+.fechasexp2 {
+
+  margin-left: 40px;
+  margin-top: -32px;
+
+}
+
+.mosOcul {
+  justify-content: space-between;
+  display: flex;
+}
+
+.btnOcul {
+  border: none;
+  background-color: transparent;
+  color: black; /* Cambia el color del texto */
+  transition: color 0.3s; /* Agrega una transición suave para el cambio de color */
+  margin-bottom: -40px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.btnOcul:hover {
+  color: rgb(22, 49, 253);
+}
+
+.titulosss {
+  margin-bottom: -5px;
+}
+
+.cajitabtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-agregar {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(216, 216, 216);
+}
+
+.btn-agregar:hover {
+  background-color: rgb(179, 178, 178);
+}
+
+.espacio-input {
+  margin-right: 10px;
+}
+
+.espacio-input2 {
+  margin-left: 10px;
+}
+
+.active {
+  display: none;
+}
+
+.espacio-input3::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Oculta las flechas en Firefox para la clase "input-no-spinner" */
+.espacio-input3 {
+    margin-left: 10px;   
+}
+
+.editarItem {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.altobajo1 {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.negritasskk1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+
+.cajasss1 {
+  display: flex;
+  /* Espaciamiento entre los elementos dentro de cajasss */
+  align-items: flex-start; 
+  margin-top: 2rem;
+}
+
+
+.spaciadoss {
+  display: flex;
+ /* Espaciamiento entre los elementos dentro de cajasss */
+  align-items: flex-start;   
+}
+
+.espacio-input22 {
+  margin-top: 19px;
+  margin-left: 10px;
+  width: 130px;
+ 
+}
+
+.espacio-input-desc {
+  margin-top: 10px;
+  padding-right: 440px;
+  padding-bottom: 120px;
+}
+
+.espacio-input-emresa {
+  margin-left: 10px;
+  padding-right: 3rem;
+}
+
+.espacio-input-cargo {
+  margin-right: 10px;
+  padding-right: 8rem;
+}
+
+.altobajo2 {
+  margin-top: 7px;
+  margin-bottom: 15px;
+  width: 100px;
+}
+
+.cajitabtnExp {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+/* .cv-experiencia-laboral,
+.cv-educacion,
+.cv-referencias 
+
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+
+
+.cv-experiencia-laboral.visible,
+.cv-educacion.visible,
+.cv-referencias.visible 
+  max-height: 1000px; /* O cualquier altura máxima que desees */
+  /* transition: max-height 5s ease-in-out; */
