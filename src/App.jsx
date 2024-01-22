@@ -8,6 +8,7 @@ import ExperienciaLaboral from './componentes/ExperienciaLaboral';
 import Educacion from './componentes/Educacion';
 import Idiomas from './componentes/Idiomas';
 import Referencias from './componentes/Referencias';
+import foto from '../hofavida.png'
 
 function App() {
 
@@ -122,7 +123,7 @@ const handleVisible2 = () => setVisible2(!visible2);
     <div className="cv-container">
       <br></br>
       <img
-        src="/hofavida.png"
+        src={foto}
         alt="Tu Foto"
         className="cv-photo"
         style={{ width: '200px', height: 'auto' }}
